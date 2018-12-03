@@ -1,10 +1,32 @@
 import React from 'react'
-import { Row, Column, Container, Jumbotron } from '../bootstrap';
+import { Row, Column, Container, Jumbotron, Navigation } from '../bootstrap';
 
 import Layout from '../components/layout';
 
 const IndexPage = () => (
     <Layout>
+        <Navigation>
+            <a href="/">Logo</a>
+            <div>
+                <ul>
+                    <li>
+                        <a href="/">Odkaz</a>
+                    </li>
+                    <li>
+                        <a href="/">Odkaz</a>
+                    </li>
+                    <li>
+                        <a href="/">Odkaz</a>
+                    </li>
+                    <li>
+                        <a href="/">Odkaz</a>
+                    </li>
+                    <li>
+                        <a href="/">Odkaz</a>
+                    </li>
+                </ul>
+            </div>
+        </Navigation>
         <Jumbotron>
             <Container>
                 <h1>Hi people</h1>
